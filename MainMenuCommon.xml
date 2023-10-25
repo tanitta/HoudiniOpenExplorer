@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mainMenu>
+  <menuBar>
+    <subMenu id="windows_menu">
+        <subMenu id="open_explorer_menu">
+        <label>Open explorer</label>
+
+        <scriptItem>
+            <label>Open $HIP</label>
+            <scriptPath>$OPEN_explorer/scripts/open_explorer.py</scriptPath>
+            <scriptArgs>$HIP</scriptArgs>
+        </scriptItem>
+
+        <scriptItem>
+            <label>Open $JOB</label>
+            <scriptPath>$OPEN_explorer/scripts/open_explorer.py</scriptPath>
+            <scriptArgs>$JOB</scriptArgs>
+        </scriptItem>
+
+        <scriptItem>
+            <label>Open $HSITE</label>
+            <scriptPath>$OPEN_explorer/scripts/open_explorer.py</scriptPath>
+            <scriptArgs>$HSITE</scriptArgs>
+        </scriptItem>
+
+        <scriptItem>
+            <label>Open $TEMP</label>
+            <scriptPath>$OPEN_explorer/scripts/open_explorer.py</scriptPath>
+            <scriptArgs>$TEMP</scriptArgs>
+        </scriptItem>
+
+
+        <scriptItem>
+            <label>Open $HOUDINI_USER_PREF_DIR</label>
+            <scriptPath>$OPEN_explorer/scripts/open_explorer.py</scriptPath>
+            <scriptArgs>$HOUDINI_USER_PREF_DIR</scriptArgs>
+        </scriptItem>
+
+        <scriptItem>
+            <label>Open $HOME</label>
+            <scriptPath>$OPEN_explorer/scripts/open_explorer.py</scriptPath>
+            <scriptArgs>$HOME</scriptArgs>
+        </scriptItem>
+
+        <scriptItem>
+            <label>Open $HFS</label>
+            <scriptPath>$OPEN_explorer/scripts/open_explorer.py</scriptPath>
+            <scriptArgs>$HFS</scriptArgs>
+        </scriptItem>
+        </subMenu>
+    </subMenu>
+  </menuBar>
+</mainMenu>

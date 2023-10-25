@@ -1,0 +1,8 @@
+{
+	"path": "$OPEN_EXPLORER",
+    "env": [
+        {
+            "OPEN_EXPLORER": "$HOUDINI_PACKAGE_PATH/HoudiniOpenExplorer"
+        }
+    ]
+}
