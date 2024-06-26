@@ -1,4 +1,7 @@
 # HoudiniOpenExplorer
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/tanitta/HoudiniOpenExplorer/blob/main/LICENSE)
+
 Add some menus that open environment variable directory on explorer.
 
 ## Install
